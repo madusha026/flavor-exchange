@@ -1,0 +1,163 @@
+[
+    {
+      "id": "1",
+      "title": "Spaghetti Carbonara",
+      "description": "A quick Italian pasta dish with eggs, cheese, bacon, and pepper.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Italian",
+      "duration": "30 mins"
+    },
+    {
+      "id": "2",
+      "title": "Chicken Biryani",
+      "description": "A flavorful rice dish with marinated chicken and Indian spices.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Indian",
+      "duration": "60 mins"
+    },
+    {
+      "id": "3",
+      "title": "Vegan Bowl",
+      "description": "Healthy mix of grains, greens, and roasted veggies.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Vegan",
+      "duration": "20 mins"
+    },
+    {
+      "id": "4",
+      "title": "Sushi Platter",
+      "description": "Fresh assortment of sushi rolls with wasabi and soy sauce.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Japanese",
+      "duration": "45 mins"
+    },
+    {
+      "id": "5",
+      "title": "Cheeseburger",
+      "description": "Juicy grilled beef patty with cheese, lettuce, and tomato.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "American",
+      "duration": "25 mins"
+    },
+    {
+      "id": "6",
+      "title": "Caesar Salad",
+      "description": "Crisp romaine lettuce with creamy Caesar dressing and croutons.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Salad",
+      "duration": "15 mins"
+    },
+    {
+      "id": "7",
+      "title": "Pad Thai",
+      "description": "Classic Thai noodle dish with shrimp, peanuts, and lime.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Thai",
+      "duration": "35 mins"
+    },
+    {
+      "id": "8",
+      "title": "Margherita Pizza",
+      "description": "Simple pizza with tomato, mozzarella, and fresh basil.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Italian",
+      "duration": "40 mins"
+    },
+    {
+      "id": "9",
+      "title": "Falafel Wrap",
+      "description": "Chickpea patties wrapped with hummus and veggies in pita bread.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Middle Eastern",
+      "duration": "30 mins"
+    },
+    {
+      "id": "10",
+      "title": "Ramen Noodles",
+      "description": "Rich and flavorful Japanese noodle soup with toppings.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Japanese",
+      "duration": "50 mins"
+    },
+    {
+      "id": "11",
+      "title": "Grilled Salmon",
+      "description": "Perfectly grilled salmon fillet with herbs and lemon.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Seafood",
+      "duration": "25 mins"
+    },
+    {
+      "id": "12",
+      "title": "Tacos al Pastor",
+      "description": "Mexican-style tacos with marinated pork and pineapple.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Mexican",
+      "duration": "30 mins"
+    },
+    {
+      "id": "13",
+      "title": "Butter Chicken",
+      "description": "Creamy Indian chicken curry served with naan or rice.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Indian",
+      "duration": "45 mins"
+    },
+    {
+      "id": "14",
+      "title": "Avocado Toast",
+      "description": "Toasted bread topped with smashed avocado and seasoning.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Vegan",
+      "duration": "10 mins"
+    },
+    {
+      "id": "15",
+      "title": "French Crepes",
+      "description": "Thin pancakes filled with sweet or savory toppings.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "French",
+      "duration": "20 mins"
+    },
+    {
+      "id": "16",
+      "title": "Pho",
+      "description": "Vietnamese noodle soup with beef, herbs, and rice noodles.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Vietnamese",
+      "duration": "45 mins"
+    },
+    {
+      "id": "17",
+      "title": "Beef Stroganoff",
+      "description": "Tender beef in a creamy mushroom sauce over noodles.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Russian",
+      "duration": "35 mins"
+    },
+    {
+      "id": "18",
+      "title": "Greek Salad",
+      "description": "Fresh tomatoes, cucumbers, olives, and feta cheese.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Greek",
+      "duration": "15 mins"
+    },
+    {
+      "id": "19",
+      "title": "Churros with Chocolate",
+      "description": "Fried dough pastries served with hot chocolate sauce.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Dessert",
+      "duration": "25 mins"
+    },
+    {
+      "id": "20",
+      "title": "Egg Fried Rice",
+      "description": "Chinese-style rice stir-fried with eggs and vegetables.",
+      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+      "category": "Chinese",
+      "duration": "20 mins"
+    }
+  ]
+  
