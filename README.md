@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Recipe Sharing Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A recipe sharing platform where users can browse, filter, and view details about various recipes. The platform supports dietary restrictions, cooking times, and ratings. Recipes can be added, updated, and deleted by the admin. Users can also mark recipes as favorites and get cooking timers.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Recipe Feed**: View a list of all recipes with their image, title, cooking time, and rating.
+- **Filtering**: Filter recipes by dietary restrictions (Vegan, Gluten-Free, Dairy-Free).
+- **Recipe Details**: View detailed information about each recipe, including ingredients, instructions, and more.
+- **Favorites**: Mark your favorite recipes and view them in a separate list.
+- **Search**: Search for recipes by title.
+- **Add/Update/Delete Recipes**: Admin users can add, edit, or delete recipes.
+- **Timer**: A built-in timer for each recipe that counts down the cooking time.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**:
+  - React.js
+  - Material-UI for UI components
+  - React Router for navigation
+  - CSS for custom styles
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Backend**: 
+  - No backend for this version; data is stored in the frontend using JSON and localStorage.
 
-### `npm test`
+- **Development Tools**:
+  - VS Code
+  - Node.js and npm for dependencies
+  - Git for version control
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/yourusername/recipe-sharing-platform.git
+2. Navigate into the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  cd recipe-sharing-platform
 
-### `npm run eject`
+3. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  npm start
