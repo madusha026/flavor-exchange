@@ -30,7 +30,10 @@ function App() {
       <div>
         <h1>Flavor Exchange: Recipe Sharing Platform</h1>
         <Routes>
-          <Route path="/" element={<RecipeFeed recipes={recipes} />} />
+        <Route 
+              path="/" 
+              element={<RecipeFeed recipes={recipes} setRecipes={setRecipes} />} 
+            />
           <Route path="/recipe/:id" element={<RecipeDetails recipes={recipes} />} />
           <Route path="/add" element={<RecipeFormPage recipes={recipes} setRecipes={setRecipes} />} />
           <Route path="/edit/:id" element={<RecipeFormPage recipes={recipes} setRecipes={setRecipes} />} />
