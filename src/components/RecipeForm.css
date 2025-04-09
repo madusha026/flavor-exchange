@@ -1,0 +1,67 @@
+/* RecipeForm.css */
+
+/* Overall Form Styling */
+.recipe-form {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Form input styling */
+.MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 24px;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2b6cb0;
+}
+
+/* Responsive Design: Adjustments for mobile screens */
+@media (max-width: 768px) {
+  .recipe-form {
+    padding: 16px;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .MuiTextField-root {
+    font-size: 1rem;
+  }
+}

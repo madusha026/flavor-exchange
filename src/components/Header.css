@@ -1,0 +1,70 @@
+/* Header Styling */
+.MuiAppBar-root.header {
+  background-color: #1976d2 !important; /* Material UI Blue background */
+  color: white !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow for depth */
+}
+
+.MuiTypography-root.title {
+  flex-grow: 1;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+
+.MuiButton-root.button {
+  margin-left: 12px;
+  padding: 8px 16px;
+  text-transform: none !important; /* Avoid uppercase text */
+  font-weight: 500 !important;
+  border-radius: 8px !important; /* Adding rounded corners for better design */
+  color: white !important;
+}
+
+.MuiButton-root.login {
+  background-color: #3182ce !important;
+  color: white !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.MuiButton-root.login:hover {
+  background-color: #2b6cb0 !important;
+}
+
+.MuiButton-root.favorites {
+  background-color: #2c7a7b !important;
+  color: white !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.MuiButton-root.favorites:hover {
+  background-color: #285e5b !important;
+}
+
+.MuiButton-root.logout {
+  background-color: #e53e3e !important;
+  color: white !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.MuiButton-root.logout:hover {
+  background-color: #c53030 !important;
+}
+
+/* Mobile responsiveness: Adjust button size for smaller screens */
+@media (max-width: 768px) {
+  .MuiTypography-root.title {
+    font-size: 1.2rem !important;
+  }
+
+  .MuiButton-root.button {
+    font-size: 0.9rem !important;
+    padding: 6px 12px !important; /* Smaller padding on mobile */
+  }
+
+  .MuiTypography-root.username {
+    font-size: 0.9rem !important;
+  }
+}

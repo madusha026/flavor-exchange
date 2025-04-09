@@ -1,38 +1,86 @@
-.App {
+/* App.css */
+
+/* Button for dark mode toggle */
+.dark-mode-button {
+  background-color: #2d3748; /* Dark gray background */
+  color: white; /* White text */
+  padding: 8px 16px; /* Padding for the button */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 16px; /* Bottom margin */
+  border: none;
+  cursor: pointer;
+}
+
+.dark-mode-button:hover {
+  background-color: #4a5568; /* Slightly lighter gray for hover */
+}
+
+/* Main content container */
+.content-container {
+  padding: 16px;
+}
+
+/* Main title */
+.main-title {
+  font-size: 2rem; /* 3xl equivalent in Tailwind */
+  font-weight: bold; /* Equivalent to Tailwind's font-bold */
+  margin-bottom: 24px; /* Margin equivalent to Tailwind's mb-6 */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Dark mode styling */
+body.dark {
+  background-color: #1a202c; /* Dark background for dark mode */
+  color: #edf2f7; /* Light text color for dark mode */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #f7fafc; /* Light background */
+  color: #2d3748; /* Dark text color */
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 2rem;
+  line-height: 1.1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2d3748; /* Default button background */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #4299e1; /* Hover effect with blue border */
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff; /* Light mode background */
+    color: #2d3748; /* Dark text for light mode */
   }
-  to {
-    transform: rotate(360deg);
+
+  button {
+    background-color: #f7fafc; /* Light button background */
+  }
+
+  .dark-mode-button {
+    background-color: #e2e8f0; /* Lighter gray background for the button in light mode */
   }
 }

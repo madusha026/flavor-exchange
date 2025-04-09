@@ -1,41 +1,59 @@
-import React from 'react';
-import { Card, CardContent, CardMedia, Typography, Button } from '@mui/material';
-import { Link } from 'react-router-dom';
-import { Favorite, FavoriteBorder } from '@mui/icons-material';  // Heart icons from Material-UI
+  import { Favorite, FavoriteBorder } from '@mui/icons-material';
+  import { Button } from '@mui/material';  // Use Material UI Button
+  import Timer from './Timer';
+  import { Link } from 'react-router-dom';
+  import './RecipeCard.css';  // Import RecipeCard CSS
 
-const RecipeCard = ({ recipe, handleDelete, handleFavoriteToggle, isFavorite }) => {
-  return (
-    <Card>
-      <CardMedia component="img" alt={recipe.title} height="140" image={recipe.imageUrl} />
-      <CardContent>
-        <Typography variant="h5" component="div">
-          {recipe.title}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Cooking Time: {recipe.cookingTime}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Rating: {recipe.rating} / 5
-        </Typography>
+  const RecipeCard = ({ recipe, handleDelete, handleFavoriteToggle, isFavorite }) => {
+    return (
+      <div className="recipe-card">
+      <Link to={`/recipe/${recipe.id}`} style={{ textDecoration: 'none' }}>
+        <img src={recipe.image} alt={recipe.title} className="recipe-image" />
+        <div className="recipe-info">
+          <h3 className="recipe-title">{recipe.title}</h3>
+          <p className="recipe-info-text">Cooking Time: {recipe.cookingTime}</p>
+          <p className="recipe-info-text">Rating: {recipe.rating ? recipe.rating : "Not rated"} / 5</p>
+          <Timer cookingTime ={recipe.cookingTime} />
+          <div className="button-container">
+            <Button
+              onClick={() => handleFavoriteToggle(recipe)}
+              sx={{
+                color: 'red',
+                '&:hover': {
+                  color: 'darkred',
+                },
+              }}
+            >
+              {isFavorite ? <Favorite /> : <FavoriteBorder />}
+            </Button>
+            <Button
+              sx={{
+                backgroundColor: '#3182ce',
+                color: 'white',
+                '&:hover': {
+                  backgroundColor: '#2b6cb0',
+                },
+              }}
+            >
+              View
+            </Button>
+            <Button
+              onClick={() => handleDelete(recipe.id)}
+              sx={{
+                backgroundColor: '#e53e3e',
+                color: 'white',
+                '&:hover': {
+                  backgroundColor: '#c53030',
+                },
+              }}
+            >
+              Delete
+            </Button>
+          </div>
+        </div>
+        </Link>
+      </div>
+    );
+  };
 
-        {/* Favorite Icon */}
-        <Button 
-          onClick={() => handleFavoriteToggle(recipe)}
-          style={{ padding: 0 }}
-        >
-          {isFavorite ? <Favorite color="primary" /> : <FavoriteBorder color="primary" />}
-        </Button>
-
-        {/* Edit and Delete Buttons */}
-        <Button color="primary" component={Link} to={`/edit/${recipe.id}`}>
-          Edit
-        </Button>
-        <Button color="secondary" onClick={() => handleDelete(recipe.id)}>
-          Delete
-        </Button>
-      </CardContent>
-    </Card>
-  );
-};
-
-export default RecipeCard;
+  export default RecipeCard;

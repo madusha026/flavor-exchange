@@ -1,0 +1,60 @@
+/* Timer.css */
+
+/* Container styling */
+.timer-container {
+  padding: 16px;
+  text-align: center; /* Center the content */
+}
+
+.timer-container h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.MuiButton-root {
+  padding: 8px 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.MuiButton-root:hover {
+  opacity: 0.8; /* Adding subtle hover effect */
+}
+
+/* Start Button Custom Styling */
+.MuiButton-root.Mui-disabled {
+  background-color: #3182ce !important; /* Keep the disabled button color */
+}
+
+.MuiButton-root.Mui-disabled:hover {
+  background-color: #3182ce !important;
+}
+
+.MuiButton-root {
+  background-color: #3182ce;
+  color: white;
+}
+
+.MuiButton-root:hover {
+  background-color: #2b6cb0;
+}
+
+/* Reset Button Custom Styling */
+.MuiButton-root.Mui-disabled {
+  background-color: #e53e3e !important;
+}
+
+.MuiButton-root.Mui-disabled:hover {
+  background-color: #e53e3e !important;
+}
+
+.MuiButton-root {
+  background-color: #e53e3e;
+  color: white;
+}
+
+.MuiButton-root:hover {
+  background-color: #c53030;
+}

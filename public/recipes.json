@@ -2,162 +2,222 @@
     {
       "id": "1",
       "title": "Spaghetti Carbonara",
+      "cookingTime": "30 mins",
+      "rating": 4.5,
       "description": "A quick Italian pasta dish with eggs, cheese, bacon, and pepper.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Italian",
-      "duration": "30 mins"
+      "dietaryRestrictions": ["Gluten-Free"],
+      "instructions": "Boil pasta, fry bacon, and mix with beaten eggs and cheese until creamy."
     },
     {
       "id": "2",
       "title": "Chicken Biryani",
+      "cookingTime": "60 mins",
+      "rating": 4.0,
       "description": "A flavorful rice dish with marinated chicken and Indian spices.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Indian",
-      "duration": "60 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Marinate chicken, cook with rice, spices, and simmer until ready."
     },
     {
       "id": "3",
       "title": "Vegan Bowl",
+      "cookingTime": "20 mins",
+      "rating": 4.2,
       "description": "Healthy mix of grains, greens, and roasted veggies.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Vegan",
-      "duration": "20 mins"
+      "dietaryRestrictions": ["Vegan", "Gluten-Free"],
+      "instructions": "Roast veggies, mix with grains, and top with dressing."
     },
     {
       "id": "4",
       "title": "Sushi Platter",
+      "cookingTime": "45 mins",
+      "rating": 4.7,
       "description": "Fresh assortment of sushi rolls with wasabi and soy sauce.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Japanese",
-      "duration": "45 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Roll sushi rice with veggies or fish, slice, and serve."
     },
     {
       "id": "5",
       "title": "Cheeseburger",
+      "cookingTime": "25 mins",
+      "rating": 4.3,
       "description": "Juicy grilled beef patty with cheese, lettuce, and tomato.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "American",
-      "duration": "25 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Grill the beef patty, melt cheese on top, and assemble the burger."
     },
     {
       "id": "6",
       "title": "Caesar Salad",
+      "cookingTime": "15 mins",
+      "rating": 4.0,
       "description": "Crisp romaine lettuce with creamy Caesar dressing and croutons.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Salad",
-      "duration": "15 mins"
+      "dietaryRestrictions": ["Gluten-Free", "Dairy-Free"],
+      "instructions": "Toss lettuce with dressing, add croutons, and serve."
     },
     {
       "id": "7",
       "title": "Pad Thai",
+      "cookingTime": "35 mins",
+      "rating": 4.5,
       "description": "Classic Thai noodle dish with shrimp, peanuts, and lime.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Thai",
-      "duration": "35 mins"
+      "dietaryRestrictions": ["Gluten-Free"],
+      "instructions": "Cook noodles, stir-fry with shrimp, peanuts, and lime."
     },
     {
       "id": "8",
       "title": "Margherita Pizza",
+      "cookingTime": "40 mins",
+      "rating": 4.8,
       "description": "Simple pizza with tomato, mozzarella, and fresh basil.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Italian",
-      "duration": "40 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Top dough with tomatoes, mozzarella, and basil, then bake."
     },
     {
       "id": "9",
       "title": "Falafel Wrap",
+      "cookingTime": "30 mins",
+      "rating": 4.4,
       "description": "Chickpea patties wrapped with hummus and veggies in pita bread.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Middle Eastern",
-      "duration": "30 mins"
+      "dietaryRestrictions": ["Vegan", "Gluten-Free"],
+      "instructions": "Fry falafel and wrap with hummus and veggies."
     },
     {
       "id": "10",
       "title": "Ramen Noodles",
+      "cookingTime": "50 mins",
+      "rating": 4.6,
       "description": "Rich and flavorful Japanese noodle soup with toppings.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Japanese",
-      "duration": "50 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Cook noodles, add broth and toppings, and simmer."
     },
     {
       "id": "11",
       "title": "Grilled Salmon",
+      "cookingTime": "25 mins",
+      "rating": 4.7,
       "description": "Perfectly grilled salmon fillet with herbs and lemon.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Seafood",
-      "duration": "25 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Grill salmon, season with herbs, and serve with lemon."
     },
     {
       "id": "12",
       "title": "Tacos al Pastor",
+      "cookingTime": "30 mins",
+      "rating": 4.3,
       "description": "Mexican-style tacos with marinated pork and pineapple.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Mexican",
-      "duration": "30 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Grill marinated pork, add pineapple, and serve in tacos."
     },
     {
       "id": "13",
       "title": "Butter Chicken",
+      "cookingTime": "45 mins",
+      "rating": 4.9,
       "description": "Creamy Indian chicken curry served with naan or rice.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Indian",
-      "duration": "45 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Cook chicken in creamy sauce and serve with naan or rice."
     },
     {
       "id": "14",
       "title": "Avocado Toast",
+      "cookingTime": "10 mins",
+      "rating": 4.2,
       "description": "Toasted bread topped with smashed avocado and seasoning.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Vegan",
-      "duration": "10 mins"
+      "dietaryRestrictions": ["Vegan", "Gluten-Free"],
+      "instructions": "Toast bread, mash avocado, and season with lemon."
     },
     {
       "id": "15",
       "title": "French Crepes",
+      "cookingTime": "20 mins",
+      "rating": 4.4,
       "description": "Thin pancakes filled with sweet or savory toppings.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "French",
-      "duration": "20 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Cook thin pancakes and fill with sweet or savory ingredients."
     },
     {
       "id": "16",
       "title": "Pho",
+      "cookingTime": "45 mins",
+      "rating": 4.5,
       "description": "Vietnamese noodle soup with beef, herbs, and rice noodles.",
       "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
       "category": "Vietnamese",
-      "duration": "45 mins"
+      "dietaryRestrictions": ["Dairy-Free"],
+      "instructions": "Prepare broth, cook noodles, and add beef and herbs."
     },
     {
       "id": "17",
-      "title": "Beef Stroganoff",
-      "description": "Tender beef in a creamy mushroom sauce over noodles.",
-      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
-      "category": "Russian",
-      "duration": "35 mins"
-    },
-    {
-      "id": "18",
-      "title": "Greek Salad",
-      "description": "Fresh tomatoes, cucumbers, olives, and feta cheese.",
-      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
-      "category": "Greek",
-      "duration": "15 mins"
-    },
-    {
-      "id": "19",
-      "title": "Churros with Chocolate",
-      "description": "Fried dough pastries served with hot chocolate sauce.",
-      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
-      "category": "Dessert",
-      "duration": "25 mins"
-    },
-    {
-      "id": "20",
-      "title": "Egg Fried Rice",
-      "description": "Chinese-style rice stir-fried with eggs and vegetables.",
-      "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
-      "category": "Chinese",
-      "duration": "20 mins"
-    }
+        "title": "Beef Stroganoff",
+        "cookingTime": "35 mins",
+        "rating": 4.1,
+        "description": "Tender beef in a creamy mushroom sauce over noodles.",
+        "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+        "category": "Russian",
+        "dietaryRestrictions": ["Dairy-Free"],
+        "instructions": "Cook beef in a creamy sauce and serve over noodles."
+      },
+      {
+        "id": "18",
+        "title": "Greek Salad",
+        "cookingTime": "15 mins",
+        "rating": 4.3,
+        "description": "Fresh tomatoes, cucumbers, olives, and feta cheese.",
+        "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+        "category": "Greek",
+        "dietaryRestrictions": ["Gluten-Free"],
+        "instructions": "Mix tomatoes, cucumbers, olives, and feta for a fresh salad."
+      },
+      {
+        "id": "19",
+        "title": "Churros with Chocolate",
+        "cookingTime": "25 mins",
+        "rating": 4.2,
+        "description": "Fried dough pastries served with hot chocolate sauce.",
+        "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+        "category": "Dessert",
+        "dietaryRestrictions": ["Dairy-Free"],
+        "instructions": "Fry dough and serve with chocolate sauce."
+      },
+      {
+        "id": "20",
+        "title": "Egg Fried Rice",
+        "cookingTime": "20 mins",
+        "rating": 4.3,
+        "description": "Chinese-style rice stir-fried with eggs and vegetables.",
+        "image": "https://cdn.pixabay.com/photo/2020/05/10/14/25/fresh-pasta-5154229_1280.jpg",
+        "category": "Chinese",
+        "dietaryRestrictions": ["Dairy-Free"],
+        "instructions": "Stir-fry rice with eggs and vegetables."
+      }
   ]
   

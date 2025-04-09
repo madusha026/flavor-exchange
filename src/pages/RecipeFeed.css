@@ -1,0 +1,86 @@
+/* RecipeFeed.css */
+
+/* Container styling */
+.recipe-feed {
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Filter Container Styling */
+  .filter-container {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .dietary-select {
+    width: 25%;
+  }
+  
+  /* Recipe Card Styling */
+  .recipe-card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .recipe-info {
+    margin-top: 16px;
+  }
+  
+  .recipe-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .recipe-info-text {
+    color: #4a5568; /* Gray color */
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+  }
+  
+  .favorite-button {
+    color: red;
+  }
+  
+  .favorite-button:hover {
+    color: darkred;
+  }
+  
+  .edit-button {
+    background-color: #3182ce;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .delete-button {
+    background-color: #e53e3e;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c53030;
+  }
+  
